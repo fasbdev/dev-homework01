@@ -35,6 +35,8 @@ namespace dev_homework01
             Console.WriteLine ($"Resutlado Area: {areaTriangulo} ");
 
             char letraA = 'a';
+            Console.WriteLine ($"Letara: { letraA}");
+
             float  floatF = 1F/3;
             double doubleD = 1D/3;
             decimal decimalD = 1M/3;
@@ -45,15 +47,29 @@ namespace dev_homework01
 
             bool falso = false;
             bool verdadero = true;
-
+            Console.WriteLine ($"Falso { falso }  Verdadero { verdadero}");
             // Tarea
             /* ESTA ES MI TAREA 
-              1) área de un tringulo, circulo, cuadrado.
-              2) si mi sueldo es de $100,000, ¿cuanto es el 10%?
-              3) si de domingo me 15 pesos cuanto dinero junte en 3 años  
-              4) Si de domingo me dan 15 pesos y cada año me aumentan 20% cuanto dinero junte en 5 años;
+              1) área de un triángulo, circulo, cuadrado.
+              2) Si mi sueldo es de $100,000, ¿cuanto es el 10%?
+              3) Si de domingo me dan 15 pesos ¿cuanto dinero junte en 3 años?  
+              4) Si de domingo me dan 15 pesos y cada año me aumentan 20% ¿cuanto dinero junte en 5 años?;
               5) Investigar el problema de los conejos de Fibonacci (programar la respuesta.)            
             */
+
+            Console.WriteLine("\n"); //Salto de linea
+            Console.WriteLine("**************************************");
+            Console.WriteLine("TAREA - Ejercicio 01");
+            Console.WriteLine("Área de un Triángulo");
+
+            var x = 10;
+            var y = 20;
+            
+            Console.WriteLine($"Base: { x }");
+            Console.WriteLine($"Altura: { y }");
+            Console.WriteLine($"área es igual: { (x*y)/2 }");
+            Console.WriteLine("**************************************");
+            Console.WriteLine("\n");
 
 
         }
