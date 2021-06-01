@@ -45,7 +45,15 @@ namespace dev_homework01
 
             bool falso = false;
             bool verdadero = true;
-            
+
+            // Tarea
+            /* ESTA ES MI TAREA 
+              1) área de un tringulo, circulo, cuadrado.
+              2) si mi sueldo es de $100,000, ¿cuanto es el 10%?
+              3) si de domingo me 15 pesos cuanto dinero junte en 3 años  
+              4) Si de domingo me dan 15 pesos y cada año me aumentan 20% cuanto dinero junte en 5 años;
+              5) Investigar el problema de los conejos de Fibonacci (programar la respuesta.)            
+            */
 
 
         }
